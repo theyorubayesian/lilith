@@ -18,7 +18,7 @@ script:
   - docker tag reverseproxy theyorubayesian/reverseproxy:v1
   - docker tag udagram-api-feed theyorubayesian/udagram-api-feed:v1
   - docker tag udagram-api-user theyorubayesian/udagram-api-user:v1
-  - docker tag udagram-frontend theyorubayesian/udagram-frontend:v1
+  - docker tag udagram-frontend theyorubayesian/udagram-frontend:local:v1
 
 after_success:
   - echo "Eyin agba, mo be yin o. Mi o sako"
@@ -26,4 +26,4 @@ after_success:
   - docker push theyorubayesian/reverseproxy:v1
   - docker push theyorubayesian/udagram-api-feed:v1
   - docker push theyorubayesian/udagram-api-user:v1
-  - docker push theyorubayesian/udagram-frontend:v1
+  - docker push theyorubayesian/udagram-frontend:local:v1
