@@ -1,0 +1,9 @@
+export POSTGRES_USERNAME=XXXXXXXX # TODO: Add secret
+export POSTGRES_PASSWORD=XXXXXXXX # TODO: Add secret
+export POSTGRES_HOST=XXXXXXXX # TODO: Add secret
+export POSTGRES_DB=postgres
+export AWS_BUCKET=XXXXXXXX # TODO: Add secret
+export AWS_REGION=us-east-1
+export AWS_PROFILE=XXXXXXXX # TODO: Add secret
+export JWT_SECRET=testing
+export URL=http://localhost:8100
