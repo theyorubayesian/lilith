@@ -11,7 +11,8 @@ install:
 before_script:
   - echo "E ma je ki n jabo"
 
-# TODO: Figure out automatic versioning & tagging
+# TODO: Figure out automatic versioning & tagging.
+# https://betterprogramming.pub/how-to-version-your-docker-images-1d5c577ebf54
 script:
   - docker --version
   - docker-compose -f docker-compose-build.yaml build --parallel

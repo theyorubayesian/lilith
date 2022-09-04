@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+data:
+  AWS_BUCKET: XXXXXXXX # TODO: Add secret
+  AWS_PROFILE: XXXXXXXX # TODO: Add secret
+  AWS_REGION: us-east-1
+  JWT_SECRET: testing
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: XXXXXXXX # TODO: Add secret
+  URL: http://localhost:8100
