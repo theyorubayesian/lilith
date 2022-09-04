@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: theyorubayesian/udagram-frontend:v1
+        image: theyorubayesian/udagram-frontend:v2
         ports:
         - containerPort: 80
         env:
